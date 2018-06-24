@@ -3,24 +3,48 @@ Xcode的代码块
 
 快捷键   ->    对应的内容
 ```objective-c
-sstrong   ->  @property (nonatomic, strong) <#class#> *<#name#>;
-wweak     ->  @property (nonatomic, weak)   <#class#> *<#name#>;
-assign    ->  @property (nonatomic, assign) <#type#> <#name#>;
-ccopy     ->  @property (nonatomic, copy)   <#class#> *<#name#>;
-bbool     ->  @property (nonatomic, assign) BOOL <#name#>;
-delegate  ->  @property (nonatomic, weak)   id <#protocol#> delegate;
+sstrong   ->  
+```objective-c
+@property (nonatomic, strong) <#class#> *<#name#>;
+```
+wweak     ->  
+```objective-c
+@property (nonatomic, weak)   <#class#> *<#name#>;
+```
+assign    ->  
+```objective-c
+@property (nonatomic, assign) <#type#> <#name#>;
+```
+ccopy     ->  
+```objective-c
+@property (nonatomic, copy)   <#class#> *<#name#>;
+```
+bbool     ->  
+```objective-c
+@property (nonatomic, assign) BOOL <#name#>;
+```
+delegate  ->  
+```objective-c
+@property (nonatomic, weak)   id <#protocol#> delegate;
+```
 
-
-__weak    ->  __weak typeof(self) weakSelf;
-mark      ->  #pragma mark
-
+__weak    ->  
+```objective-c
+__weak typeof(self) weakSelf;
+```
+mark      ->  
+```objective-c
+#pragma mark
+```
 interface ->
+```objective-c
 @interface <#class#> ()
 
 @end
-
+```
 
 自定义cell时    ->
+```objective-c
 + (instancetype)cellWithTableView:(UITableView *)tableView {
     static NSString *ID = @"<#ID#>";
     <#class#> *cell = [tableView dequeueReusableCellWithIdentifier:ID];

@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;
-</string>
+	<string>__weak typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1801B77A-E4DE-47A0-B631-9CA11AC747A7</string>
 	<key>IDECodeSnippetLanguage</key>

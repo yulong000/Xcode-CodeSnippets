@@ -2,7 +2,7 @@
 Xcode的代码块
 
 快捷键   ->    对应的内容
-```objective-c
+
 sstrong   ->  
 ```objective-c
 @property (nonatomic, strong) <#class#> *<#name#>;

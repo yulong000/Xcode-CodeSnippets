@@ -7,17 +7,18 @@ sstrong   ->  @property (nonatomic, strong) <#class#> *<#name#>;
 wweak     ->  @property (nonatomic, weak)   <#class#> *<#name#>;
 assign    ->  @property (nonatomic, assign) <#type#> <#name#>;
 ccopy     ->  @property (nonatomic, copy)   <#class#> *<#name#>;
-bbool     ->  @property (nonatomic, assign) BOOL <#name#>;\<br>
+bbool     ->  @property (nonatomic, assign) BOOL <#name#>;
 delegate  ->  @property (nonatomic, weak)   id <#protocol#> delegate;
+
+
 __weak    ->  __weak typeof(self) weakSelf;
 mark      ->  #pragma mark
 
 interface ->
 @interface <#class#> ()
 
-
-
 @end
+
 
 自定义cell时    ->
 + (instancetype)cellWithTableView:(UITableView *)tableView {

@@ -1,16 +1,16 @@
 # Xcode-CodeSnippets
 Xcode的代码块
 
-快捷键       对应的内容
-```objective c
-sstrong   ->  @property (nonatomic, strong) <#class#> *<#name#>;\<br>
-wweak     ->  @property (nonatomic, weak)   <#class#> *<#name#>;\<br>
-assign    ->  @property (nonatomic, assign) <#type#> <#name#>;\<br>
-ccopy     ->  @property (nonatomic, copy)   <#class#> *<#name#>;\<br>
+快捷键   ->    对应的内容
+```oc
+sstrong   ->  @property (nonatomic, strong) <#class#> *<#name#>;
+wweak     ->  @property (nonatomic, weak)   <#class#> *<#name#>;
+assign    ->  @property (nonatomic, assign) <#type#> <#name#>;
+ccopy     ->  @property (nonatomic, copy)   <#class#> *<#name#>;
 bbool     ->  @property (nonatomic, assign) BOOL <#name#>;\<br>
-delegate  ->  @property (nonatomic, weak)   id <#protocol#> delegate;\<br>
-__weak    ->  __weak typeof(self) weakSelf;\<br>
-mark      ->  #pragma mark\<br>
+delegate  ->  @property (nonatomic, weak)   id <#protocol#> delegate;
+__weak    ->  __weak typeof(self) weakSelf;
+mark      ->  #pragma mark
 
 interface ->
 @interface <#class#> ()

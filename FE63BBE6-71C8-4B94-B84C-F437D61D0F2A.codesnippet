@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createTableView</string>
+	<string>createTV</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -20,15 +20,14 @@
 
 #pragma mark - tableView dataSource
 #pragma mark dataSource
-- (NSInteger)table
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    self.tablevi
+    
     return &lt;#count#&gt;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return &lt;#cell#&gt;;
+    return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -52,10 +51,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>tableView常用的数据源和代理方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>数据源和代理方法</string>
+	<string>创建tableview 数据源和代理方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

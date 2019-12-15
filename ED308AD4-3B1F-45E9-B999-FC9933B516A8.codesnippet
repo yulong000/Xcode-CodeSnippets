@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ccopy</string>
+	<string>iint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy)   &lt;#class#&gt; *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, assign) int &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3704FC6D-BCE4-46E6-8DD0-C148EB25FA28</string>
+	<string>ED308AD4-3B1F-45E9-B999-FC9933B516A8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy属性</string>
+	<string>int 属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

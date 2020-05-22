@@ -1,6 +1,8 @@
 # Xcode-CodeSnippets
 Xcode的代码块
 
+存放位置  ~/Library/Developer/Xcode/UserData/CodeSnippets
+
 快捷键   ->    对应的内容
 
 sstrong   ->  

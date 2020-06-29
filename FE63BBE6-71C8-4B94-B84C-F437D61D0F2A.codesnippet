@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark 创建talbeView
@@ -54,10 +55,12 @@
 	<string>FE63BBE6-71C8-4B94-B84C-F437D61D0F2A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>tableView常用的数据源和代理方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建tableview 数据源和代理方法</string>
+	<string>创建tableview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[MBProgressHUD showMessage:@"" toView:self.view];</string>
@@ -14,6 +15,8 @@
 	<string>B10E0B01-AD89-4262-AB22-43A88C2FD21D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>显示hud</string>
 	<key>IDECodeSnippetUserSnippet</key>

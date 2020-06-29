@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createCV</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - 创建collectionView
+- (BaseCollectionView *)createCollectionView {
+    UICollectionViewFlowLayout *flow = [[UICollectionViewFlowLayout alloc] init];
+    flow.itemSize = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    flow.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
+    flow.minimumLineSpacing = 10;
+    flow.minimumInteritemSpacing = 10;
+    BaseCollectionView *collectionView = [[BaseCollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flow];
+    collectionView.backgroundColor = WhiteColor;
+    collectionView.alwaysBounceVertical = YES;
+    collectionView.dataSource = self;
+    collectionView.delegate = self;
+    collectionView registerClass:&lt;#(nullable Class)#&gt; forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;
+    return collectionView;
+}
+
+#pragma mark - collectionView dataSource
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    
+}
+
+- (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
+#pragma mark collectionView delegate
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A077907-455C-43F4-B323-CC1E57D75AA1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>collectionView 常用的数据源和代理方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建collectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

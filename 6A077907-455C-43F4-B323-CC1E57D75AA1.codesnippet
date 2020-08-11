@@ -22,7 +22,7 @@
     collectionView.alwaysBounceVertical = YES;
     collectionView.dataSource = self;
     collectionView.delegate = self;
-    collectionView registerClass:&lt;#(nullable Class)#&gt; forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;
+    [collectionView registerClass:&lt;#(nullable Class)#&gt;] forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
     return collectionView;
 }
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>hheader</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype)headerWithTableView:(UITableView *)tableView {
+    static NSString *ID = @"&lt;#ID#&gt;";
+    &lt;#Class#&gt; *header = [tableView dequeueReusableHeaderFooterViewWithIdentifier:ID];
+    if(header == nil) {
+        header = [[&lt;#Class#&gt; alloc] initWithReuseIdentifier:ID];
+    }
+    return header;
+}
+
+- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
+    if(self = [super initWithReuseIdentifier:reuseIdentifier]) {
+        self.contentView.backgroundColor = WhiteColor;
+    }
+    return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FDBC5FD7-FFB6-4D6E-ABDF-78D40D1EEBCD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>快速创建 tableview 的复用header</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableView header</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

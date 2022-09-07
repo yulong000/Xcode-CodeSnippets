@@ -33,6 +33,8 @@
 	<string>FDBC5FD7-FFB6-4D6E-ABDF-78D40D1EEBCD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>快速创建 tableview 的复用header</string>
 	<key>IDECodeSnippetTitle</key>

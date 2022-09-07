@@ -34,6 +34,10 @@
 	<string>E60B18BB-3EE1-4865-AE86-05021D4899A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>自定义cell</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -3,23 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hudshow</string>
+	<string>ccontrol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[MBProgressHUD showMessage:@"" toView:self.view];</string>
+	<string>- (void)mouseDown:(NSEvent *)event {
+    [self.window makeFirstResponder:self];
+}
+
+- (void)mouseUp:(NSEvent *)event {
+    [NSApp sendAction:self.action to:self from:self];
+}
+
+- (BOOL)acceptsFirstResponder {
+    return YES;
+}
+
+- (BOOL)becomeFirstResponder {
+    return YES;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B10E0B01-AD89-4262-AB22-43A88C2FD21D</string>
+	<string>CC72890B-53E4-48B2-9B66-5E224EEEA9CC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>显示hud</string>
+	<string>自定义NSControl 响应点击操作</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

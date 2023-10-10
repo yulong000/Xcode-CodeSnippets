@@ -6,7 +6,7 @@
 	<string>delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, weak)   id&lt;&lt;#protocol#&gt;&gt; delegate;</string>
@@ -14,6 +14,8 @@
 	<string>99B0EFC9-9F3C-4438-97F7-63677421C056</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>delegate代理属性</string>
 	<key>IDECodeSnippetUserSnippet</key>

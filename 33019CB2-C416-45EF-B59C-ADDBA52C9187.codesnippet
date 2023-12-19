@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iinitwithframe</string>
+	<string>llayout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        &lt;#statements#&gt;
-    }
-    return self;
+	<string>- (void)layout {
+    [super layout];
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6C6363F9-224A-4B0A-9863-4D8A71AE9601</string>
+	<string>33019CB2-C416-45EF-B59C-ADDBA52C9187</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view 初始化</string>
+	<string>mac OS 里NSView重写layout</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

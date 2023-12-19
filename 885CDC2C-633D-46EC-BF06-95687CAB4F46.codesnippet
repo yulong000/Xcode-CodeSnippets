@@ -3,26 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iinitwithframe</string>
+	<string>mmouseEntered</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        &lt;#statements#&gt;
-    }
-    return self;
+	<string>- (void)mouseEntered:(NSEvent *)event {
+    [super mouseEntered:event];
+    
+}
+
+- (void)mouseExited:(NSEvent *)event {
+    [super mouseExited:event];
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6C6363F9-224A-4B0A-9863-4D8A71AE9601</string>
+	<string>885CDC2C-633D-46EC-BF06-95687CAB4F46</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view 初始化</string>
+	<string>macOS 鼠标滑入滑出</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

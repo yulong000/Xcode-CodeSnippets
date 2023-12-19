@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iinitwithframe</string>
+	<string>iinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
+	<string>- (instancetype)init {
+    if(self = [super init]) {
         &lt;#statements#&gt;
     }
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6C6363F9-224A-4B0A-9863-4D8A71AE9601</string>
+	<string>D6950F9D-529A-4D45-B5D2-CBB07B11FAEA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view 初始化</string>
+	<string>init 初始化</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

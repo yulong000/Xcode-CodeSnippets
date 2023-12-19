@@ -14,7 +14,7 @@
 }
 
 - (void)mouseUp:(NSEvent *)event {
-    [NSApp sendAction:self.action to:self from:self];
+    [NSApp sendAction:self.action to:self.target from:self];
 }
 
 - (BOOL)acceptsFirstResponder {

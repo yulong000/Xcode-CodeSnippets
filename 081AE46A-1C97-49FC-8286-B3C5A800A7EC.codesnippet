@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lloadView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - 生命周期
+    
+    override func loadView() {
+        view = YLFlipView()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.addSubviews(from: [
+            
+        ])
+        
+        loadOptions()
+        loadConfig()
+    }
+    
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        loadConfig()
+    }
+    
+    override func viewDidLayout() {
+        super.viewDidLayout()
+        
+    }
+    
+    // MARK: - 配置信息
+    
+    private func loadConfig() {
+        
+    }
+    
+    private func loadOptions() {
+        
+    }
+    
+    // MARK: - 属性
+    
+    
+    // MARK: - UI</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>081AE46A-1C97-49FC-8286-B3C5A800A7EC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>macOS loadView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

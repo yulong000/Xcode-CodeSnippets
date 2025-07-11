@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>iinitWithFrame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>override init(frame frameRect: NSRect) {
+    super.init(frame: frameRect)
+    initialize()
+}
+
+required init?(coder: NSCoder) {
+    super.init(coder: coder)
+    initialize()
+}
+
+private func initialize() {
+    
+}
+
+override func layout() {
+    super.layout()
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A339F511-C4DC-4205-8363-65F405B4AB8C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>view的初始化和布局</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>view 初始化-Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

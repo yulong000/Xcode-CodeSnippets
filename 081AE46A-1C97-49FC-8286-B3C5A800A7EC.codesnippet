@@ -9,7 +9,10 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - 生命周期
+	<string>// MARK: - 属性
+
+
+// MARK: - 生命周期
     
     override func loadView() {
         view = YLFlipView()
@@ -44,9 +47,9 @@
     private func loadOptions() {
         
     }
-    
-    // MARK: - 属性
-    
+
+    // MARK: - 方法
+
     
     // MARK: - UI</string>
 	<key>IDECodeSnippetIdentifier</key>

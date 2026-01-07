@@ -3,45 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iinitWithFrame</string>
+	<string>letself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - 属性
-
-// MARK: - 方法
-
-// MARK: - 初始化 &amp; 布局
-
-override init(frame frameRect: NSRect) {
-    super.init(frame: frameRect)
-    initialize()
-}
-
-required init?(coder: NSCoder) {
-    super.init(coder: coder)
-    initialize()
-}
-
-private func initialize() {
-    
-}
-
-override func layout() {
-    super.layout()
-}
-
-// MARK: - UI组件</string>
+	<string>guard let self = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A339F511-C4DC-4205-8363-65F405B4AB8C</string>
+	<string>543D2569-EA6D-4B0C-8018-F187146F2A3F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>view的初始化和布局</string>
+	<string>guard let self = self else { return }</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view 初始化-Swift</string>
+	<string>Swift 弱引用self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

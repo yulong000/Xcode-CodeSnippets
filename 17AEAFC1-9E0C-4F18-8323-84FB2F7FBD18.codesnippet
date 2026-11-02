@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import AppKit
+import YLFlipView
+import NSView
+import YLKit
+import NSString
+import NSColor
+import NSTextField
+
+class &lt;#name#&gt;: YLFlipView {
+    
+    // MARK: - 属性
+    
+    // MARK: - 方法
+    
+    // MARK: - 初始化 &amp; 布局
+    
+    override init(frame frameRect: NSRect) {
+        super.init(frame: frameRect)
+        initialize()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        initialize()
+    }
+    
+    private func initialize() {
+        
+    }
+    
+    override func layout() {
+        super.layout()
+    }
+    
+    // MARK: - UI组件
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17AEAFC1-9E0C-4F18-8323-84FB2F7FBD18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MacOS 自定义View</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

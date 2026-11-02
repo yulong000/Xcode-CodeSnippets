@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ccollectionView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var listView: YLCollectionView = {
+        let layout = NSCollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        layout.sectionInset = NSEdgeInsetsMake(0, 0, 0, 0)
+        layout.minimumLineSpacing = 5
+        let collectionView = YLCollectionView(layout: layout)
+        collectionView.collectionView.allowsMultipleSelection = false
+        collectionView.collectionView.allowsEmptySelection = false
+    collectionView.registerItem(&lt;#class#&gt;.self, withIdentifier: &lt;#class#&gt;.ID)
+        collectionView.numberOfItemsHandler = { [weak self] collectionView, section in
+            return 0
+        }
+        collectionView.itemHandler = { [weak self] collectionView, indexPath in
+            let item = collectionView.makeItem(withIdentifier: &lt;#class#&gt;.ID, for: indexPath) as! &lt;#class#&gt;
+            item.model = &lt;#model#&gt;
+            return item
+        }
+        collectionView.itemSizeHandler = { [weak self] collectionView, indexPath in
+            guard let self = self else { return .zero }
+            return NSMakeSize(&lt;#width#&gt;, &lt;#height#&gt;)
+        }
+        return collectionView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CDE1FE0C-2DBA-47DC-907E-9BF6A9BDC547</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MacOS 创建collectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

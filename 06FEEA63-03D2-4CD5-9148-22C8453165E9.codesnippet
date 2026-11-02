@@ -22,7 +22,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>private lazy var &lt;#name#&gt;: NSImageView</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>macOS 创建imageView</string>
 	<key>IDECodeSnippetUserSnippet</key>

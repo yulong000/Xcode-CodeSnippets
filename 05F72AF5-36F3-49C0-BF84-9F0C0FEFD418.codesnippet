@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>private lazy var &lt;#name#&gt;: NSTextField</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>macOS 创建Label</string>
 	<key>IDECodeSnippetUserSnippet</key>

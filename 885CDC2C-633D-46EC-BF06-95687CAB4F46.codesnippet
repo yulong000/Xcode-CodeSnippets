@@ -25,7 +25,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>mouseEntered  &amp;  mouseExited</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>macOS 鼠标滑入滑出</string>
 	<key>IDECodeSnippetUserSnippet</key>

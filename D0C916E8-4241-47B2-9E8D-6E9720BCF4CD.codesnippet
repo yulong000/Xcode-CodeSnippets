@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>- (void)loadView { self.view = [[YLFlipView alloc] init]; }</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>macOS里控制器loadView</string>
 	<key>IDECodeSnippetUserSnippet</key>
